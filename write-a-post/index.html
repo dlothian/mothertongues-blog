@@ -6,12 +6,12 @@
 
 <link rel="icon" href="/mothertongues-blog/assets/images/logo.png">
 
-<title>Welcome | Mother Tongues Blog</title>
+<title>Write a post | Mother Tongues Blog</title>
 
 <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Welcome | Mother Tongues Blog</title>
+<title>Write a post | Mother Tongues Blog</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Welcome" />
+<meta property="og:title" content="Write a post" />
 <meta name="author" content="aidan" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Welcome to the Mother Tongues blog!" />
@@ -20,7 +20,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-03-17T00:00:00+00:00" />
 <script type="application/ld+json">
-{"description":"Welcome to the Mother Tongues blog!","mainEntityOfPage":{"@type":"WebPage","@id":"/mothertongues-blog/welcome/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/mothertongues-blog/assets/images/logo_no_text.png"},"name":"aidan"},"@type":"BlogPosting","url":"/mothertongues-blog/welcome/","headline":"Welcome","dateModified":"2020-03-17T00:00:00+00:00","datePublished":"2020-03-17T00:00:00+00:00","author":{"@type":"Person","name":"aidan"},"@context":"http://schema.org"}</script>
+{"description":"Welcome to the Mother Tongues blog!","mainEntityOfPage":{"@type":"WebPage","@id":"/mothertongues-blog/write-a-post/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/mothertongues-blog/assets/images/logo_no_text.png"},"name":"aidan"},"@type":"BlogPosting","url":"/mothertongues-blog/write-a-post/","headline":"Write a post","dateModified":"2020-03-17T00:00:00+00:00","datePublished":"2020-03-17T00:00:00+00:00","author":{"@type":"Person","name":"aidan"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -149,19 +149,19 @@ ga('send', 'pageview');
     </p>
     <ul>
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://twitter.com/intent/tweet?text=Welcome&url=/mothertongues-blog/welcome/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=Write a post&url=/mothertongues-blog/write-a-post/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                 <i class="fab fa-twitter"></i>
             </a>
         </li>
 
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://facebook.com/sharer.php?u=/mothertongues-blog/welcome/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=/mothertongues-blog/write-a-post/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
                 <i class="fab fa-facebook-f"></i>
             </a>
         </li>
 
         <li class="ml-1 mr-1">
-            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=/mothertongues-blog/welcome/" onclick="window.open(this.href, 'width=550,height=435');return false;">
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=/mothertongues-blog/write-a-post/" onclick="window.open(this.href, 'width=550,height=435');return false;">
                 <i class="fab fa-linkedin-in"></i>
             </a>
         </li>
@@ -202,7 +202,7 @@ ga('send', 'pageview');
                 
 
                 <!-- Post Title -->
-                <h1 class="posttitle">Welcome</h1>
+                <h1 class="posttitle">Write a post</h1>
 
             </div>
 
@@ -219,13 +219,44 @@ ga('send', 'pageview');
                 <!-- Toc if any -->
                 
                 <!-- End Toc -->
-                <p>Welcome to the Mother Tongues official blog!</p>
+                <p>Here’s a short tutorial on how to write your first blog post on the official Mother Tongues Blog. This tutorial assumes you’ve already signed up to <a href="/mothertongues-blog/become-an-author">become an author</a>.</p>
 
-<p>Mother Tongues is an organization whose focus is to provide powerful tools for language revitalization.</p>
+<p>Posts on the Mother Tongues Blog are written in <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>.</p>
 
-<p>Here you’ll find small tips and tricks for developing language technology with a focus on Indigenous languages.</p>
+<p>In order to write a new post, follow the following steps.</p>
 
-<p>Be sure to <a href="https://mailchi.mp/b87b1fbde236/mothertongues">sign up</a> to our mailing list to keep track of new blog posts and any events.</p>
+<ol>
+  <li>In your fork of the <a href="https://github.com/roedoejet/mothertongues-blog">Mother Tongues Blog Respository</a>, make sure you’re in the <code class="highlighter-rouge">dev.author</code> branch and add a new post to the <code class="highlighter-rouge">_posts</code> folder. Your post file name must by <a href="https://blog.tersmitten.nl/slugify/">slugified</a>. It must start with the date (yyyy-mm-dd) and then the blog post name, <code class="highlighter-rouge">2020-01-15-this-is-a-sample.md</code>.</li>
+  <li>Add some meta data about the post at the top:
+    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">title</span><span class="pi">:</span>  <span class="s2">"</span><span class="s">Become</span><span class="nv"> </span><span class="s">an</span><span class="nv"> </span><span class="s">author"</span>
+<span class="na">author</span><span class="pi">:</span> <span class="s">aidan</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="pi">[</span> <span class="nv">Tutorial</span><span class="pi">,</span> <span class="nv">Blog</span> <span class="pi">]</span>
+<span class="na">tags</span><span class="pi">:</span> <span class="pi">[</span> <span class="nv">intermediate</span> <span class="pi">]</span>
+<span class="na">image</span><span class="pi">:</span> <span class="s">assets/images/01.jpg</span>
+<span class="na">description</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Write</span><span class="nv"> </span><span class="s">your</span><span class="nv"> </span><span class="s">own</span><span class="nv"> </span><span class="s">articles</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">Mother</span><span class="nv"> </span><span class="s">Tongues</span><span class="nv"> </span><span class="s">Blog"</span>
+<span class="na">featured</span><span class="pi">:</span> <span class="no">false</span>
+<span class="na">hidden</span><span class="pi">:</span> <span class="no">false</span>
+<span class="nn">---</span>
+</pre></td></tr></tbody></table></code></pre></div>    </div>
+  </li>
+  <li>Write the content of your post in Markdown.</li>
+  <li>When you’re happy with it, Submit a <a href="https://github.com/roedoejet/mothertongues-blog/pull/new/dev.author">pull request</a></li>
+</ol>
+
+<p>Thanks for contributing!</p>
 
             </div>
 
@@ -245,6 +276,14 @@ ga('send', 'pageview');
                 <ul class="tags mb-4">
                     
                     
+                    <li>
+                        <a class="smoothscroll" href="/mothertongues-blog/categories#Blog">Blog</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/mothertongues-blog/categories#Tutorial">Tutorial</a>
+                    </li>
+                    
                 </ul>
             </div>
             <!-- End Categories -->
@@ -254,6 +293,14 @@ ga('send', 'pageview');
                 <ul class="tags">
                     
                     
+                    <li>
+                        <a class="smoothscroll" href="/mothertongues-blog/tags#contributing">#contributing</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/mothertongues-blog/tags#intermediate">#intermediate</a>
+                    </li>
+                    
                 </ul>
             </div>
             <!-- End Tags -->
@@ -261,10 +308,8 @@ ga('send', 'pageview');
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
             
-            <a class="prev d-block col-md-6" href="/mothertongues-blog//become-an-author/"> &laquo; Become an author</a>
+            <a class="prev d-block col-md-6" href="/mothertongues-blog//welcome/"> &laquo; Welcome</a>
             
-            
-            <a class="next d-block col-md-6 text-lg-right" href="/mothertongues-blog//write-a-post/">Write a post &raquo; </a>
             
             <div class="clearfix"></div>
             </div>
