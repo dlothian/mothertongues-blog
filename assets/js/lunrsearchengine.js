@@ -1,42 +1,42 @@
 
 var documents = [{
     "id": 0,
-    "url": "/mothertongues-blog/404.html",
+    "url": "/404.html",
     "title": "404",
     "body": "404 Page does not exist!Please use the search bar at the top or visit our homepage! "
     }, {
     "id": 1,
-    "url": "/mothertongues-blog/about",
+    "url": "/about",
     "title": "",
     "body": "Welome to the Mother Tongues Blog. "
     }, {
     "id": 2,
-    "url": "/mothertongues-blog/categories",
+    "url": "/categories",
     "title": "Categories",
     "body": ""
     }, {
     "id": 3,
-    "url": "/mothertongues-blog/",
+    "url": "/",
     "title": "Home",
     "body": "      Featured:                                                                                                     Welcome                              :               Welcome to the Mother Tongues official blog!:                                                                                                                                                                       Aidan                                17 Mar 2020                                                                                                                            All Stories:                                     Write a post              :       Here’s a short tutorial on how to write your first blog post on the official Mother Tongues Blog. This tutorial assumes you’ve already signed up to become an author. :                                                                               Aidan                17 Mar 2020                                                                                                                                             Become an author              :       Do you have a tip you’d like to share? Have you pulled your hair out fixing a bug only to find out that the reason the bug exists is because. . . :                                                                               Aidan                17 Mar 2020                                            "
     }, {
     "id": 4,
-    "url": "/mothertongues-blog/robots.txt",
+    "url": "/robots.txt",
     "title": "",
     "body": "      Sitemap: {{ “sitemap. xml”   absolute_url }}   "
     }, {
     "id": 5,
-    "url": "/mothertongues-blog/write-a-post/",
+    "url": "/write-a-post/",
     "title": "Write a post",
     "body": "2020/03/17 - Here’s a short tutorial on how to write your first blog post on the official Mother Tongues Blog. This tutorial assumes you’ve already signed up to become an author. Posts on the Mother Tongues Blog are written in Markdown. In order to write a new post, follow the following steps.  In your fork of the Mother Tongues Blog Respository, make sure you’re in the dev. author branch and add a new post to the _posts folder. Your post file name must by slugified. It must start with the date (yyyy-mm-dd) and then the blog post name, 2020-01-15-this-is-a-sample. md.  Add some meta data about the post at the top:  1234567891011---layout: posttitle:  Become an author author: aidancategories: [ Tutorial, Blog ]tags: [ intermediate ]image: assets/images/01. jpgdescription:  Write your own articles for the Mother Tongues Blog featured: falsehidden: false---    Write the content of your post in Markdown.  When you’re happy with it, Submit a pull requestThanks for contributing! "
     }, {
     "id": 6,
-    "url": "/mothertongues-blog/welcome/",
+    "url": "/welcome/",
     "title": "Welcome",
     "body": "2020/03/17 - Welcome to the Mother Tongues official blog! Mother Tongues is an organization whose focus is to provide powerful tools for language revitalization. Here you’ll find small tips and tricks for developing language technology with a focus on Indigenous languages. Be sure to sign up to our mailing list to keep track of new blog posts and any events. "
     }, {
     "id": 7,
-    "url": "/mothertongues-blog/become-an-author/",
+    "url": "/become-an-author/",
     "title": "Become an author",
     "body": "2020/03/17 - Do you have a tip you’d like to share? Have you pulled your hair out fixing a bug only to find out that the reason the bug exists is because many mainstream platforms don’t consider less-resourced languages? The Mother Tongues blog is the place to share your tips, tricks, and tutorials for all things related to technology for less-resourced languages. To become an author, you’ll need a GitHub account1. Then, follow these steps:  Fork the Mother Tongues Blog Respository Checkout to the dev. author branch Edit the file labelled _config. yml. * denotes a required value.   1234567891011121314151617authors: aidan:  name: Aidan  display_name: Aidan  gravatar: 7623fd3eeb0acbe1084fecc20c3093ae  email: hello@aidanpine. ca  web: https://aidanpine. ca  twitter: https://twitter. com/aidanpine  description:  Lead developer of Mother Tongues.   yourname*:   name: YourName*   display_name: YourName*   email: your@email. com*   gravatar: YourGravatarID   web: yoursite. com   twitter: https://twitter. com/yourhandle   description:  Guest Author. YourDescriptionHere     Submit a pull requestThat’s it! Start writing your posts.   Footnotes: 1: Any suggestions for good GitHub tutorials? Leave them in the comments below! "
     }];
