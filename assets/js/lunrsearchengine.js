@@ -33,7 +33,7 @@ var documents = [{
     "id": 6,
     "url": "/welcome/",
     "title": "Welcome",
-    "body": "2020/03/17 - Welcome to the Mother Tongues official blog! Mother Tongues is an organization whose focus is to provide powerful tools for language revitalization. Here you’ll find small tips and tricks for developing language technology with a focus on Indigenous languages. Be sure to sign up to our mailing list to keep track of new blog posts and any events. "
+    "body": "2020/03/17 - Welcome to the Mother Tongues official blog! Mother Tongues is an organization that releases free and open source tools for language revitalization. Here you’ll find blog posts, tips, tricks and tutorials for developing language technology with a focus on Indigenous languages. Be sure to sign up to our mailing list to keep track of new blog posts and any events. "
     }, {
     "id": 7,
     "url": "/become-an-author/",

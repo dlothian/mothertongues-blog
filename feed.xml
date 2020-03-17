@@ -5,8 +5,8 @@
     <description>Smashing the lore of language technology!</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Mar 2020 23:24:32 +0000</pubDate>
-    <lastBuildDate>Tue, 17 Mar 2020 23:24:32 +0000</lastBuildDate>
+    <pubDate>Tue, 17 Mar 2020 23:32:31 +0000</pubDate>
+    <lastBuildDate>Tue, 17 Mar 2020 23:32:31 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -69,9 +69,9 @@
         <title>Welcome</title>
         <description>&lt;p&gt;Welcome to the Mother Tongues official blog!&lt;/p&gt;
 
-&lt;p&gt;Mother Tongues is an organization whose focus is to provide powerful tools for language revitalization.&lt;/p&gt;
+&lt;p&gt;Mother Tongues is an organization that releases free and open source tools for language revitalization.&lt;/p&gt;
 
-&lt;p&gt;Here you’ll find small tips and tricks for developing language technology with a focus on Indigenous languages.&lt;/p&gt;
+&lt;p&gt;Here you’ll find blog posts, tips, tricks and tutorials for developing language technology with a focus on Indigenous languages.&lt;/p&gt;
 
 &lt;p&gt;Be sure to &lt;a href=&quot;https://mailchi.mp/b87b1fbde236/mothertongues&quot;&gt;sign up&lt;/a&gt; to our mailing list to keep track of new blog posts and any events.&lt;/p&gt;
 </description>
