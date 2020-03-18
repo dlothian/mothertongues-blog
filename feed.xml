@@ -3,15 +3,15 @@
   <channel>
     <title>Mother Tongues Blog</title>
     <description>Smashing the lore of language technology!</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Mar 2020 23:32:31 +0000</pubDate>
-    <lastBuildDate>Tue, 17 Mar 2020 23:32:31 +0000</lastBuildDate>
+    <link>https://blog.mothertongues.org/</link>
+    <atom:link href="https://blog.mothertongues.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 18 Mar 2020 00:05:27 +0000</pubDate>
+    <lastBuildDate>Wed, 18 Mar 2020 00:05:27 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Write a post</title>
-        <description>&lt;p&gt;Here’s a short tutorial on how to write your first blog post on the official Mother Tongues Blog. This tutorial assumes you’ve already signed up to &lt;a href=&quot;/become-an-author&quot;&gt;become an author&lt;/a&gt;.&lt;/p&gt;
+        <description>&lt;p&gt;Here’s a short tutorial on how to write your first blog post on the official Mother Tongues Blog. This tutorial assumes you’ve already signed up to &lt;a href=&quot;https://blog.mothertongues.org/become-an-author&quot;&gt;become an author&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Posts on the Mother Tongues Blog are written in &lt;a href=&quot;https://en.wikipedia.org/wiki/Markdown&quot;&gt;Markdown&lt;/a&gt;.&lt;/p&gt;
 
@@ -51,8 +51,8 @@
 &lt;p&gt;Thanks for contributing!&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
-        <link>/write-a-post/</link>
-        <guid isPermaLink="true">/write-a-post/</guid>
+        <link>https://blog.mothertongues.org/write-a-post/</link>
+        <guid isPermaLink="true">https://blog.mothertongues.org/write-a-post/</guid>
         
         <category>intermediate</category>
         
@@ -76,8 +76,8 @@
 &lt;p&gt;Be sure to &lt;a href=&quot;https://mailchi.mp/b87b1fbde236/mothertongues&quot;&gt;sign up&lt;/a&gt; to our mailing list to keep track of new blog posts and any events.&lt;/p&gt;
 </description>
         <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
-        <link>/welcome/</link>
-        <guid isPermaLink="true">/welcome/</guid>
+        <link>https://blog.mothertongues.org/welcome/</link>
+        <guid isPermaLink="true">https://blog.mothertongues.org/welcome/</guid>
         
         
       </item>
@@ -133,7 +133,7 @@
   &lt;li&gt;Submit a &lt;a href=&quot;https://github.com/roedoejet/mothertongues-blog/pull/new/dev.author&quot;&gt;pull request&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;That’s it! Start &lt;a href=&quot;/write-a-post&quot;&gt;writing your posts&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;That’s it! Start &lt;a href=&quot;https://blog.mothertongues.org/write-a-post&quot;&gt;writing your posts&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt; 
 &lt;br /&gt; 
@@ -145,8 +145,8 @@
 
 </description>
         <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
-        <link>/become-an-author/</link>
-        <guid isPermaLink="true">/become-an-author/</guid>
+        <link>https://blog.mothertongues.org/become-an-author/</link>
+        <guid isPermaLink="true">https://blog.mothertongues.org/become-an-author/</guid>
         
         <category>intermediate</category>
         
