@@ -2,6 +2,9 @@
 .post-excerpt p {
   display: inline; }
 
+.card-title {
+  margin-top: 15px; }
+
 .highlight {
   background: #fff;
   border: 0;

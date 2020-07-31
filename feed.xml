@@ -5,9 +5,66 @@
     <description>Smashing the lore of language technology!</description>
     <link>https://blog.mothertongues.org/</link>
     <atom:link href="https://blog.mothertongues.org/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 18 Mar 2020 01:51:43 +0000</pubDate>
-    <lastBuildDate>Wed, 18 Mar 2020 01:51:43 +0000</lastBuildDate>
+    <pubDate>Fri, 31 Jul 2020 22:27:50 +0000</pubDate>
+    <lastBuildDate>Fri, 31 Jul 2020 22:27:50 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Standard post template</title>
+        <description>&lt;p&gt;This blog post describes what a basic template for a post on this blog should look like. Feel free to just copy past the headers into your post and replace the text! The instructions for each section are italicized, and the answers for this specific blog post are following the italicized text.&lt;/p&gt;
+
+&lt;h1 id=&quot;tldr&quot;&gt;TL;DR&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;We reccomend having a section at the top that gives an extremely short summary of the post (ideally 2 or 3 sentences). This should be high-level, and shouldn’t assume any technical knowledge.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a template of a blog post to follow when writing other blog posts - how meta!&lt;/p&gt;
+
+&lt;h1 id=&quot;technical-assumptions&quot;&gt;Technical Assumptions&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Your post should have a list of technical skills that you think are needed to understand the blog post. This will help the reader know if they’ll be able to benefit from reading it or whether they should study up on something first.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Knowledge of writing &lt;a href=&quot;https://www.markdowntutorial.com/&quot;&gt;markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;who-is-involved-with-this-project&quot;&gt;Who is involved with this project?&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Beyond the author’s information which will be part of this post, there should be a list of everybody involved with the technology discussed in the post, if applicable. The list of contacts should be clear&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Author/Blog Maintainer: &lt;a href=&quot;mailto:hello@aidanpine.ca&quot;&gt;Aidan Pine&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;what-is-needed-to-replicate-the-content-in-the-post&quot;&gt;What is needed to replicate the content in the post?&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Is the technology or tip you’re describing reproducible? If so, what are the requirements? For example, is it available for any language, given 20 hours of audio data?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;You will need to follow the steps of &lt;a href=&quot;https://blog.mothertongues.org/become-an-author&quot;&gt;becoming an author&lt;/a&gt; and &lt;a href=&quot;https://blog.mothertongues.org/write-a-post&quot;&gt;writing a post&lt;/a&gt; before using this template.&lt;/p&gt;
+
+&lt;h1 id=&quot;what-are-the-motivations-behind-this-projecttechnologytip&quot;&gt;What are the motivations behind this project/technology/tip?&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Was this project funded? By whom? What were the explicit goals of the technology in question, or are they left unstated?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://mothertongues.org&quot;&gt;Mother Tongues&lt;/a&gt; was created to release open-source software for language revitalization and includes tools for &lt;a href=&quot;https://docs.mothertongues.org&quot;&gt;dictionaries&lt;/a&gt; and [orthography converters][https://github.com/roedoejet/convertextract]. Please read the &lt;a href=&quot;https://blog.mothertongues.org/about&quot;&gt;About section&lt;/a&gt; for more information.&lt;/p&gt;
+
+&lt;h1 id=&quot;main-post--replace-title&quot;&gt;Main Post &amp;lt;– replace title&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Here is where the main post should go - because this is just a template, there’s nothing here!&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
+        <link>https://blog.mothertongues.org/post-template/</link>
+        <guid isPermaLink="true">https://blog.mothertongues.org/post-template/</guid>
+        
+        <category>basic</category>
+        
+        <category>contributing</category>
+        
+        
+        <category>Tutorial</category>
+        
+        <category>Blog</category>
+        
+      </item>
     
       <item>
         <title>Write a post</title>
@@ -44,7 +101,7 @@
 &lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-  &lt;li&gt;Write the content of your post in Markdown.&lt;/li&gt;
+  &lt;li&gt;Write the content of your post in Markdown. Please have a look at the &lt;a href=&quot;https://blog.mothertongues.org/post-template&quot;&gt;template&lt;/a&gt; for writing accessible posts!&lt;/li&gt;
   &lt;li&gt;When you’re happy with it, Submit a &lt;a href=&quot;https://github.com/roedoejet/mothertongues-blog/pull/new/dev.author&quot;&gt;pull request&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
